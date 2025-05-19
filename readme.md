@@ -157,7 +157,6 @@
 ## 11. Démo
 
 👉 **Visitez notre site web**  
-[🔗 Lien vers votre démo (à compléter)]
 
 ---
 
