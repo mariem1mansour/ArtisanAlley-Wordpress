@@ -1,0 +1,69 @@
+# WordPress Core
+wordpress/
+/wp-admin/
+/wp-includes/
+/wp-content/upgrade/
+/wp-content/uploads/
+/wp-content/blogs.dir/
+
+# Plugins (if using official WordPress.org plugins)
+/wp-content/plugins/*
+
+# Exclude specific plugins that are managed via Composer or custom
+!/wp-content/plugins/my-custom-plugin/
+
+# Themes (exclude default & bundled themes; include your own if they're in version control)
+/wp-content/themes/twenty*/
+/wp-content/themes/Twenty*/
+
+# WooCommerce
+/wp-content/plugins/woocommerce/
+/wp-content/plugins/woocommerce-gateway_stripe/
+/wp-content/plugins/woocommerce-services/
+/wp-content/plugins/woocommerce-payments/
+
+# Configuration files
+wp-config.php
+wp-config-sample.php
+.htaccess
+robots.txt
+sitemap.xml
+sitemap.xml.gz
+
+# Debug / logs
+/debug.log
+/wp-content/debug.log
+
+# Caching plugins and dirs
+/wp-content/cache/
+/wp-content/wflogs/
+/wp-content/advanced-cache.php
+/wp-content/object-cache.php
+
+# Node.js / Build tools (if used in theme/plugin development)
+node_modules/
+npm-debug.log
+yarn-error.log
+/dist/
+/build/
+
+# Composer
+/vendor/
+composer.phar
+composer.lock
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.swp
+*~
+.#*
